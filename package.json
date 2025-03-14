@@ -1,0 +1,14 @@
+{
+  "name": "bjs",
+  "type": "module",
+  "workspaces": [
+    "app/*"
+  ],
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

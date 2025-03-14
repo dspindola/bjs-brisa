@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "module": "./src/pages/index.tsx",
+  "type": "module",
+  "scripts": {
+    "dev": "brisa dev",
+    "dev:debug": "brisa dev --debug",
+    "build": "brisa build",
+    "start": "brisa start"
+  },
+  "dependencies": {
+    "brisa": "0.2.9-canary.3",
+    "brisa-tailwindcss": "0.2.9-canary.3",
+    "cally": "^0.8.0",
+    "daisyui": "^5.0.3",
+    "react": "^19.0.0",
+    "react-day-picker": "^9.6.2",
+    "react-dom": "^19.0.0",
+    "react-to-webcomponent": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,17 @@
+build
+node_modules
+out
+.vercel
+
+.quokka
+.bunfig.toml
+.bunfig.*.toml
+
+mise.local.toml
+.vscode/settings.json
+.vscode/extensions.json
+
+**/.bjs
+**/.bunkr
+
+bun.lock
