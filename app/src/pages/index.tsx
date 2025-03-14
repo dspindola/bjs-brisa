@@ -1,18 +1,17 @@
-import { dangerHTML, type RequestContext } from "brisa";
-import { Ico } from "@/components/ico";
-
-export async function Head({}, { route }: RequestContext) {
+export function Head() {
   return (
     <>
-      <title>{route.name}</title>
-      <link
-        rel="ico"
-        href={encodeURIComponent(`data:image/svg+xml;utf8,${await Ico()}`)}
-      />
+      <title>Bjs Brisa</title>
+      <meta name="description" content="Bjs Brisa" />
+      <link rel="icon" href="/brisa.svg" />
     </>
   );
 }
 
 export default function Homepage() {
-  return <div></div>;
+  return (
+    <div>
+      <h1>Bjs Brisa</h1>
+    </div>
+  );
 }
